@@ -1,0 +1,21 @@
+body {
+  font-size: 62.5%;
+}
+
+.row button {
+  padding: 2.5rem 5rem;
+}
+#js-winnerInfo {
+  padding: 7rem 0;
+}
+#js-playerPickElement {
+  padding: 5rem 0;
+}
+
+#js-resultsTableElement {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+.active {
+  background-color: #4286f4;
+}
