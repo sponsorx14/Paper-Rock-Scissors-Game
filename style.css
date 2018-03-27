@@ -1,21 +1,62 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 62.5%;
 }
 
-.row button {
-  padding: 2.5rem 5rem;
-}
-#js-winnerInfo {
-  padding: 7rem 0;
-}
-#js-playerPickElement {
-  padding: 5rem 0;
+.container {
+  text-align: center;
 }
 
-#js-resultsTableElement {
-  margin-top: 3rem;
-  font-size: 1.5rem;
+.container h1 {
+  padding-bottom: 1rem;
 }
-.active {
-  background-color: #4286f4;
+
+.container span {
+  font-size: 2rem;
+}
+
+.row {
+  padding: 1rem 0;
+}
+
+.row button {
+  margin-top: 10rem;
+  padding: 2.5rem 5rem;
+}
+
+.js-playerPickElement {
+  margin-top: 10rem;
+}
+
+.js-playerPickElement button {
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+.scoreContainer {
+  margin-bottom: 3rem;
+}
+
+.scoreContainer div {
+  height: 33px;
+}
+
+.scoreContainer span {
+  font-size: 3rem;
+}
+
+.js-resultsTableElement {
+  padding: 3rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
+.js-resultsTableElement .playerName {
+  font-weight: bold;
 }
