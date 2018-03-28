@@ -16,6 +16,7 @@ body {
 }
 
 .container span {
+  margin: 0 .5rem;
   font-size: 2rem;
 }
 
